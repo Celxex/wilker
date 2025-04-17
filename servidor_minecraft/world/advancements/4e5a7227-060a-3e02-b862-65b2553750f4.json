@@ -10090,12 +10090,6 @@
     },
     "done": true
   },
-  "totw_modded:regular_tower": {
-    "criteria": {
-      "regular": "2025-04-17 00:35:01 +0000"
-    },
-    "done": true
-  },
   "biomeswevegone:recipes/transportation/pine_chest_boat": {
     "criteria": {
       "has_boat": "2025-04-16 23:45:39 +0000"
@@ -10138,21 +10132,9 @@
     },
     "done": true
   },
-  "betterdungeons:small_dungeon": {
-    "criteria": {
-      "in_better_monster_room": "2025-04-17 00:49:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-04-16 23:45:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
     },
     "done": true
   },
@@ -10204,21 +10186,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_slab": {
-    "criteria": {
-      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
-    },
-    "done": true
-  },
   "biomeswevegone:recipes/transportation/maple_chest_boat": {
     "criteria": {
       "has_boat": "2025-04-16 23:45:39 +0000"
-    },
-    "done": true
-  },
-  "betterdungeons:skeleton_dungeon": {
-    "criteria": {
-      "in_better_skeleton_dungeon": "2025-04-17 01:03:39 +0000"
     },
     "done": true
   },
@@ -10372,21 +10342,9 @@
     },
     "done": true
   },
-  "farm_and_charm:recipes/corn_bag": {
-    "criteria": {
-      "has_corn": "2025-04-17 00:33:23 +0000"
-    },
-    "done": true
-  },
   "biomeswevegone:recipes/transportation/skyris_chest_boat": {
     "criteria": {
       "has_boat": "2025-04-16 23:45:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
-    "criteria": {
-      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
     },
     "done": true
   },
@@ -10432,12 +10390,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
-    },
-    "done": true
-  },
   "biomeswevegone:recipes/transportation/fir_chest_boat": {
     "criteria": {
       "has_boat": "2025-04-16 23:45:39 +0000"
@@ -10453,6 +10405,54 @@
   "biomeswevegone:recipes/transportation/holly_chest_boat": {
     "criteria": {
       "has_boat": "2025-04-16 23:45:39 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/corn_bag": {
+    "criteria": {
+      "has_corn": "2025-04-17 00:33:23 +0000"
+    },
+    "done": true
+  },
+  "totw_modded:regular_tower": {
+    "criteria": {
+      "regular": "2025-04-17 00:35:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-04-17 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:small_dungeon": {
+    "criteria": {
+      "in_better_monster_room": "2025-04-17 00:49:21 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:skeleton_dungeon": {
+    "criteria": {
+      "in_better_skeleton_dungeon": "2025-04-17 01:03:39 +0000"
     },
     "done": true
   },
