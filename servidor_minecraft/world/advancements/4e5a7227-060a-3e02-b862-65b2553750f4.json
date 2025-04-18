@@ -10612,9 +10612,99 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/skulk_chestplate": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
   "mutantmonsters:you_da_bomby": {
     "criteria": {
       "tamed_creeper_minion": "2025-04-18 23:05:06 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_chestplate": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/dragon_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/pirate2_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/tengu_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/paladin_sword": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk3_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/dragon_boots": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk2_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk4_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk_boots": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_boots": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/dragon_chestplate": {
+    "criteria": {
+      "has_filled_goblet": "2025-04-18 23:23:49 +0000"
     },
     "done": true
   },
