@@ -153,3 +153,121 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 [00:10:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [00:10:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [00:10:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:10:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:10:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:10:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:10:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:11:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:28] [Server thread/INFO]: Yasame14 was slain by Zombie
+[00:12:31] [Server thread/INFO]: Yasame14 was not rescued in time
+[00:12:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:34] [Server thread/INFO]: Async chunk loading for player Yasame14 completed
+[00:12:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:12:49] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@5d962eb, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3414.method_43044(float)" because the return value of "net.minecraft.class_6880.comp_349()" is null
+	at net.minecraft.class_3218.method_8465(class_3218.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_47967(class_1937.java:406) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_43128(class_1937.java:414) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8396(class_1937.java:399) ~[server-intermediary.jar:?]
+	at org.callofequestria_fabricated.item.custom.PlushItem.method_7884(PlushItem.java:116) ~[ponified-fabricated-0.3.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:363) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1140) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:15318) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:742) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[00:13:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:27] [Server thread/INFO]: [Celxex: Teleported Yasame14 to Celxex]
+[00:13:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:13:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:08] [Server thread/INFO]: Yasame14 was slain by Zombie
+[00:14:12] [Server thread/INFO]: Yasame14 was not rescued in time
+[00:14:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:14] [Server thread/INFO]: Async chunk loading for player Yasame14 completed
+[00:14:26] [Server thread/INFO]: [Celxex: Teleported Yasame14 to Celxex]
+[00:14:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:14:54] [Server thread/INFO]: [Yasame14: Teleported Yasame14 to -1559.500000, 81.500000, 23.500000]
+[00:15:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:09] [Server thread/INFO]: [Celxex: Teleported Yasame14 to Celxex]
+[00:15:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:15:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:35] [Server thread/INFO]: [Not Secure] <Yasame14> ya me voy kjasaksa
+[00:16:38] [Server thread/INFO]: [Not Secure] <Celxex> si estoy oyendo KJASD
+[00:16:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:16:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:26] [Server thread/WARN]: Server seems overloading, jumping 3330ms or 66 ticks
+[00:17:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:17:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:18:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:19:44] [Server thread/INFO]: Yasame14 lost connection: Disconnected
+[00:19:44] [Server thread/INFO]: Yasame14 left the game
+[00:20:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:20:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:20:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
