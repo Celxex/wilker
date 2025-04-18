@@ -936,3 +936,149 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length
 [00:50:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [00:51:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [00:51:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:51:17] [Server thread/INFO]: [Not Secure] <Celxex> estam op
+[00:51:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:51:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:51:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:51:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:51:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:51:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:01] [Server thread/INFO]: Yasame14 was slain by Zombie
+[00:52:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:10] [Server thread/INFO]: Yasame14 was slain by Zombie
+[00:52:16] [Server thread/INFO]: [Not Secure] <Celxex> Perame un moent
+[00:52:21] [Server thread/INFO]: [Not Secure] <Celxex> moment
+[00:52:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:33] [Server thread/INFO]: Celxex was slain by Zombie
+[00:52:40] [Server thread/INFO]: Yasame14 died
+[00:52:41] [Server thread/INFO]: Celxex was not rescued in time
+[00:52:42] [Server thread/INFO]: Async chunk loading for player Celxex completed
+[00:52:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:46] [Server thread/INFO]: [Celxex: Teleported Celxex to Yasame14]
+[00:52:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:52:58] [Server thread/INFO]: [Not Secure] <Celxex> vamos arriba
+[00:53:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:11] [Server thread/INFO]: [Not Secure] <Celxex> veni
+[00:53:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:53:59] [Server thread/INFO]: Celxex has made the advancement [Forgotten Fae]
+[00:54:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:08] [Server thread/INFO]: [Not Secure] <Celxex> los discos
+[00:54:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:13] [Server thread/INFO]: [Not Secure] <Celxex> pera
+[00:54:21] [Netty Epoll Acceptor IO Thread/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 25 more
+[00:54:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:54:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:49] [Server thread/INFO]: [Not Secure] <Celxex> yap
+[00:55:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:55:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:18] [Server thread/INFO]: [Not Secure] <Celxex> vacios de seguro
+[00:56:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:56:58] [Server thread/INFO]: [Not Secure] <Celxex> ESTA VACIO
+[00:57:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:26] [Server thread/WARN]: Server seems overloading, jumping 3070ms or 61 ticks
+[00:57:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:57:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:09] [Server thread/INFO]: [Not Secure] <Celxex> es solo decoracion amor
+[00:58:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:14] [Server thread/INFO]: [Not Secure] <Celxex> no todo tiene que tene uso
+[00:58:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:58:55] [Server thread/INFO]: [Not Secure] <Celxex> si
+[00:59:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[00:59:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:05] [Server thread/INFO]: [Not Secure] <Celxex> subamo
+[01:00:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:22] [Server thread/INFO]: [Not Secure] <Celxex> vamos a ver primero aqui arrib
+[01:00:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:23] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:33] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:43] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:00:53] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:01:03] [Server thread/INFO]: [Not Secure] <Celxex> yes
+[01:01:03] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:01:13] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
