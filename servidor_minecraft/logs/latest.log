@@ -1579,3 +1579,130 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 [03:48:31] [Server thread/INFO]: [Not Secure] <Celxex> crees que no escucho
 [03:48:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [03:48:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:48:48] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=-2398, y=115, z=222}
+[03:48:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:48:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:01] [Server thread/INFO]: Portal located for entity class_3222['Celxex'/435, l='ServerLevel[Prueba]', x=-2379.84, y=106.00, z=196.93] at TeleportTarget{pitch=18.600012, position=(-297.5, 99.0, 23.250824906570326), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-115.950134}
+[03:49:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:49:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:50:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:51:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-190, y=52, z=501}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-190, y=52, z=502}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-191, y=52, z=503}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-190, y=52, z=503}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-189, y=52, z=503}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-191, y=52, z=504}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-190, y=52, z=504}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-191, y=52, z=505}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-190, y=52, z=505}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-192, y=54, z=500}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-190, y=52, z=510}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-192, y=51, z=502}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-192, y=51, z=503}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-192, y=51, z=504}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-191, y=52, z=504}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-191, y=51, z=504}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-192, y=51, z=505}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:35] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [-12, 31], pos: class_2339{x=-192, y=51, z=506}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-176, y=66, z=525}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-176, y=66, z=526}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-175, y=67, z=526}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-175, y=66, z=526}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-176, y=67, z=527}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-176, y=66, z=527}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-175, y=67, z=527}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:41] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 32], pos: class_2339{x=-175, y=66, z=527}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[03:52:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:52:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-192, y=49, z=548}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-192, y=50, z=545}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-192, y=49, z=545}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-192, y=50, z=546}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-192, y=49, z=546}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-191, y=50, z=546}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-191, y=49, z=546}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-12, 34], pos: class_2339{x=-192, y=50, z=547}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-11, 35], pos: class_2339{x=-175, y=46, z=562}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-11, 34], pos: class_2339{x=-176, y=48, z=559}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:06] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-11, 35], pos: class_2339{x=-176, y=48, z=561}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:53:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:53:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:01] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-11, 31], pos: class_2339{x=-163, y=87, z=496}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[03:54:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:24] [Server thread/INFO]: Celxex tried to swim in lava
+[03:54:25] [Server thread/INFO]: Async chunk loading for player Celxex completed
+[03:54:30] [Server thread/INFO]: [Not Secure] <Celxex> te oigo
+[03:54:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:42] [Server thread/INFO]: [Not Secure] <Celxex> burlas
+[03:54:44] [Server thread/INFO]: [Not Secure] <Celxex> risas
+[03:54:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:54:55] [Server thread/INFO]: [Not Secure] <Celxex> tenemos a un compañero en el sotano
+[03:55:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:55:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:56:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:10] [Server thread/INFO]: [Not Secure] <Celxex> yes
+[03:57:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:57:52] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:58:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:58:02] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:58:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:58:22] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:58:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[03:58:32] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
