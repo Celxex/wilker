@@ -2452,3 +2452,190 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length
 [01:46:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [01:46:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
 [01:46:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:46:37] [Netty Epoll Acceptor IO Thread/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 25 more
+[01:46:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:46:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:46:45] [Server thread/INFO]: [Not Secure] <Celxex> mmmm
+[01:46:52] [Server thread/INFO]: [Not Secure] <Celxex> hay armas con animacion tipo 3d
+[01:46:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:46:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:01] [Server thread/INFO]: [Not Secure] <Celxex> pero no sale como se hacen esas
+[01:47:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:56] [Server thread/INFO]: [Not Secure] <Celxex> vere tutorial
+[01:47:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:47:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:08] [Server thread/INFO]: [Not Secure] <Celxex> hay espadas especiales
+[01:48:17] [Server thread/INFO]: [Not Secure] <Celxex> pero no se craftean creo
+[01:48:20] [Server thread/INFO]: [Not Secure] <Celxex> abajo
+[01:48:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:48:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:49:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:55] [Server thread/WARN]: Server seems overloading, jumping 3370ms or 67 ticks
+[01:50:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:50:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:56] [Server thread/INFO]: [Celxex: Set the time to 1000]
+[01:51:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:51:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:52:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:10] [Server thread/INFO]: [Not Secure] <Celxex> veni
+[01:53:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:28] [Server thread/INFO]: [Not Secure] <Celxex> de esas
+[01:53:31] [Server thread/INFO]: [Not Secure] <Celxex> ponlas
+[01:53:36] [Server thread/INFO]: [Not Secure] <Celxex> para que veas
+[01:53:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:56] [Server thread/INFO]: [Not Secure] <Celxex> ohhh
+[01:53:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:53:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:01] [Server thread/INFO]: [Not Secure] <Celxex> pues el polvo d ehueso
+[01:54:06] [Server thread/INFO]: [Not Secure] <Celxex> esta en los gabinetes
+[01:54:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:13] [Server thread/INFO]: [Not Secure] <Celxex> si es
+[01:54:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:48] [Server thread/INFO]: [Not Secure] <Celxex> mira que buena combinacion
+[01:54:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:54:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:00] [Server thread/INFO]: [Not Secure] <Celxex> hay armas que se pueden de a dos
+[01:55:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:27] [Server thread/INFO]: [Not Secure] <Celxex> no te digo nada pue
+[01:55:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:37] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:37] [Netty Epoll Acceptor IO Thread/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[01:55:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:57] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:55:59] [Server thread/WARN]: Celxex moved wrongly!
+[01:56:04] [Server thread/INFO]: [Not Secure] <Celxex> ah te decia
+[01:56:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:56:07] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:56:20] [Server thread/INFO]: [Not Secure] <Celxex> que si te hago la armadura de diamante y luego la tranformas a otra si quieres
+[01:56:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
+[01:56:27] [Server thread/WARN]: Loaded chunks: 0 unloaded: 0 total:0
