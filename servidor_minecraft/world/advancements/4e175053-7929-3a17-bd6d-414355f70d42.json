@@ -11751,6 +11751,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-04-19 05:14:54 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/decorations/dark_oak_cabinet": {
     "criteria": {
       "has_dark_oak_trapdoor": "2025-04-19 04:31:27 +0000"
