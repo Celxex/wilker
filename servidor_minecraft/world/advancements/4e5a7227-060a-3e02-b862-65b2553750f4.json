@@ -11243,6 +11243,18 @@
     },
     "done": true
   },
+  "callofequestria_fabricated:twilight_velvet": {
+    "criteria": {
+      "requirement": "2025-04-19 05:06:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-04-19 05:11:48 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/redstone/willow_trapdoor": {
     "criteria": {
       "has_willow_planks": "2025-04-19 04:40:53 +0000"
