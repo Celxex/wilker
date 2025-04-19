@@ -1,16 +1,16 @@
-[05:59:50] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[05:59:51] [ForkJoinPool-1-worker-3/WARN]: Mod lying_skeletons uses the version 1.2.0_1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0_1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[05:59:51] [ForkJoinPool-1-worker-3/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[05:59:51] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[06:07:42] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[06:07:42] [ForkJoinPool-1-worker-4/WARN]: Mod lying_skeletons uses the version 1.2.0_1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0_1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:07:42] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:07:42] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[05:59:51] [ForkJoinPool-1-worker-3/WARN]: Mod totw_modded uses the version fabric-1.20.1-1.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[05:59:51] [ForkJoinPool-1-worker-3/WARN]: Mod waterframes uses the version 2.1.12a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '12a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[05:59:51] [ForkJoinPool-1-worker-3/WARN]: The mod "callofequestria_fabricated" contains invalid entries in its mod json:
+[06:07:42] [ForkJoinPool-1-worker-4/WARN]: Mod totw_modded uses the version fabric-1.20.1-1.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:07:42] [ForkJoinPool-1-worker-4/WARN]: Mod waterframes uses the version 2.1.12a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '12a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:07:42] [ForkJoinPool-1-worker-4/WARN]: The mod "callofequestria_fabricated" contains invalid entries in its mod json:
 - Unsupported root entry "resources" at line 33 column 14
-[05:59:51] [ForkJoinPool-1-worker-2/WARN]: The mod "takesapillage" contains invalid entries in its mod json:
+[06:07:42] [ForkJoinPool-1-worker-2/WARN]: The mod "takesapillage" contains invalid entries in its mod json:
 - Unsupported root entry "mc-publish" at line 51 column 15
-[05:59:51] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 5.0pre2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[05:59:51] [main/WARN]: Warnings were found!
+[06:07:42] [ForkJoinPool-1-worker-4/WARN]: Mod naturalist uses the version 5.0pre2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:07:42] [main/WARN]: Warnings were found!
  - Mod 'Concurrent Chunk Management Engine' (c2me) 0.2.0+alpha.11.16 conflicts with any version of mod 'Better chunk loading mod' (betterchunkloading), which is present with the following versions: 1.20.1-5.4!
 	 - While this won't prevent you from starting the game, the developer(s) of mod 'Concurrent Chunk Management Engine' (c2me) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
  - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
@@ -19,7 +19,7 @@
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Exposure' (exposure) 1.7.10 recommends version 0.5.1-f or later of create, which is missing!
 	 - You should install version 0.5.1-f or later of create for the optimal experience.
-[05:59:51] [main/INFO]: Loading 341 mods:
+[06:07:42] [main/INFO]: Loading 341 mods:
 	- achiopt 1.0.1
 	- adorabuild_structures 2.8.0
 	- alternate-current 1.9.0
@@ -392,279 +392,280 @@
 	- yungsapi 1.20-Fabric-4.0.6
 	- yungsbridges 1.20-Fabric-4.0.3
 	- zombiehorsespawn 5.2
-[05:59:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/wilker/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:59:51] [main/INFO]: Compatibility level set to JAVA_17
-[05:59:52] [main/WARN]: Reference map 'armoroftheages.refmap.json' for armoroftheages.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map 'armoroftheages.refmap.json' for armoroftheages.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:59:52] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
-[05:59:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[05:59:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[05:59:52] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[05:59:52] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[05:59:52] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/INFO]: Preloading Debugify
-[05:59:52] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map 'graveyard-FABRIC-fabric-refmap.json' for graveyard-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:52] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 4 override(s) found
-[05:59:52] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:53] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 65 options available, 5 override(s) found
-[05:59:53] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[05:59:53] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[05:59:53] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[05:59:53] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[05:59:53] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[05:59:53] [main/INFO]: Applying Nashorn fix
-[05:59:53] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:53] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:53] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:53] [main/WARN]: Reference map 'structure_layout_optimizer.refmap.json' for structure_layout_optimizer.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:53] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[05:59:53] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:59:53] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[05:59:53] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[05:59:53] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[05:59:53] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[05:59:53] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[05:59:53] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[05:59:53] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
-[05:59:53] [main/WARN]: Error loading class: net/minecraft/class_929 (java.lang.ClassNotFoundException: net/minecraft/class_929)
-[05:59:53] [main/WARN]: @Mixin target net.minecraft.class_929 was not found earthtojava-common.mixins.json:CatEntityRendererMixin from mod earthtojavamobs
-[05:59:53] [main/INFO]: Loading Faster Random.
-[05:59:53] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[05:59:53] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[05:59:53] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton, vmp]) disables it and children
-[05:59:53] [main/WARN]: Error loading class: net/minecraft/class_337$1 (java.lang.ClassNotFoundException: net/minecraft/class_337$1)
-[05:59:53] [main/WARN]: @Mixin target net/minecraft/class_337$1 was not found minecells.mixins.json:client.hud.BossBarUpdaterMixin from mod minecells
-[05:59:54] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[05:59:54] [main/INFO]: Loaded config for: structureessentials.json
-[05:59:54] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[05:59:54] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[05:59:54] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[05:59:54] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[05:59:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:59:54] [main/INFO]: ThreadTweak config initialized
-[05:59:57] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[05:59:57] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[05:59:57] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[05:59:57] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[05:59:57] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[05:59:59] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
-[05:59:59] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
-[05:59:59] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin from mod refurbished_furniture::handler$ehb000$refurbished_furniture$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[05:59:59] [main/WARN]: Method overwrite conflict for getContainerCounter in porting_lib_accessors.mixins.json:common.accessor.ServerPlayerAccessor from mod porting_lib_accessors, previously written by com.helliongames.snifferplus.mixin.MixinServerPlayer. Skipping method.
-[05:59:59] [main/WARN]: Method overwrite conflict for getContainerCounter in moonlight.mixins.json:ServerPlayerAccessor from mod moonlight, previously written by com.helliongames.snifferplus.mixin.MixinServerPlayer. Skipping method.
-[05:59:59] [main/WARN]: Method overwrite conflict for getContainerCounter in species.mixins.json:ServerPlayerAccessor from mod species, previously written by com.helliongames.snifferplus.mixin.MixinServerPlayer. Skipping method.
-[06:00:01] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[06:00:01] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[06:00:02] [main/INFO]: Vanilla bootstrap took 6897 milliseconds
-[06:00:02] [main/INFO]: fabric loader environment detected
-[06:00:02] [main/INFO]: Loaded config for: cupboard.json
-[06:00:02] [main/INFO]: Reflections took 184 ms to scan 1 urls, producing 9 keys and 75 values
-[06:00:04] [main/INFO]: [Regions Unexplored] generating and loading config
-[06:00:04] [main/INFO]: Loaded config amendments-common.json
-[06:00:04] [main/INFO]: Deserializing AOTAConfig from './config/armoroftheages.json'
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[06:00:04] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[06:00:04] [main/INFO]: Initializing AtistructuresvMod
-[06:00:04] [main/INFO]: betterchunkloading mod initialized
-[06:00:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[06:00:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[06:00:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[06:00:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[06:00:04] [main/INFO]: Biolith is initializing...
-[06:00:05] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[06:00:05] [main/INFO]: Initializing network...
-[06:00:05] [main/INFO]: Initialized network!
-[06:00:05] [main/INFO]: Registering Oh The Biomes We've Gone items
-[06:00:05] [main/INFO]: Registering Oh The Biomes We've Gone Blocks
-[06:00:05] [main/INFO]: Registering Oh The Biomes We've Gone Wood
-[06:00:05] [main/INFO]: Bypassed Mojang DFU
-[06:00:05] [main/INFO]: Instantiating Mojang DFU
-[06:00:06] [main/ERROR]: No data fixer registered for biomeswevegone:sign
-[06:00:06] [main/ERROR]: No data fixer registered for biomeswevegone:hanging_sign
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Block Entities
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Entities
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Sounds
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Block Predicate
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone State Providers
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Custom Features
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Configured Features
-[06:00:06] [main/INFO]: Creating and Registering Overworld Vegetation Configured Features
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
-[06:00:06] [main/INFO]: Creating and Registering Vanilla Configured Features
-[06:00:06] [main/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Placed Features
-[06:00:06] [main/INFO]: Creating and Registering Overworld Tree Placed Features
-[06:00:06] [main/INFO]: Creating and Registering Overworld Vegetation Placed Features
-[06:00:06] [main/INFO]: Creating and Registering Vanilla Placed Features
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Template Pools
-[06:00:06] [main/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Poi Types
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Villager Professions
-[06:00:06] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
-[06:00:06] [main/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
-[06:00:06] [main/INFO]: Brutal bosses initialized
-[06:00:06] [main/INFO]: Registering Items for callofequestria_fabricated
-[06:00:06] [main/INFO]: Registering Sounds for callofequestria_fabricated
-[06:00:06] [main/INFO]: Registering Plushies for callofequestria_fabricated
-[06:00:06] [main/INFO]: Registering C2S receiver with id camping:open_backpack
-[06:00:06] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
-[06:00:06] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
-[06:00:06] [main/INFO]: Hello Fabric world!
-[06:00:06] [main/INFO]: [STDOUT]: All 6 have been set properly
-[06:00:06] [main/INFO]: Loaded config for: chunksending.json
-[06:00:06] [main/INFO]: chunksending mod initialized
-[06:00:06] [main/INFO]: Loading Collective version 8.1.
-[06:00:06] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[06:00:06] [main/INFO]: Successfully Debugify'd your game!
-[06:00:06] [main/INFO]: Constructing common components for diagonalblocks:main
-[06:00:06] [main/INFO]: Constructing common components for diagonalfences:main
-[06:00:06] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 27ms
-[06:00:06] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 78ms
-[06:00:06] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 108ms
-[06:00:07] [main/INFO]: Hello Fabric world!
-[06:00:07] [main/INFO]: [Earth2Java] Mod loaded! Enjoy :D
-[06:00:07] [main/INFO]: Constructing common components for easyanvils:main
-[06:00:07] [main/INFO]: Constructing common components for enderzoology:main
-[06:00:07] [main/INFO]: Loading common config for enderzoology
-[06:00:07] [main/INFO]: ExpandAbility here, who dis?
-[06:00:07] [pool-3-thread-1/INFO]: Reloading common config for enderzoology
-[06:00:07] [main/INFO]: Initializing Gimm1q - Mim1q's Fabric modding library!
-[06:00:08] [main/INFO]: Registered JSON trade offer adapter.
-[06:00:08] [main/INFO]: Constructing common components for hangglider:main
-[06:00:08] [main/INFO]: Initializing hybrid-aquatic
-[06:00:08] [main/ERROR]: No data fixer registered for hybrid-aquatic:anemone
-[06:00:08] [main/ERROR]: No data fixer registered for hybrid-aquatic:giant_clam
-[06:00:08] [main/ERROR]: No data fixer registered for hybrid-aquatic:message_in_a_bottle
-[06:00:08] [main/ERROR]: No data fixer registered for hybrid-aquatic:buoy
-[06:00:08] [main/ERROR]: No data fixer registered for hybrid-aquatic:tube_sponge
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_sync
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_add
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_edit
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_change_authority
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_add
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_edit
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_ring_ready_result
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_ring_update_result
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_or_playlist_delete
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:multiple_music_add
-[06:00:08] [main/INFO]: Registering C2S receiver with id iammusicplayer:hand_lid_cycle
-[06:00:08] [main/INFO]: Constructing common components for illagerinvasion:main
-[06:00:08] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[06:00:08] [main/INFO]: Constructing common components for leavesbegone:main
-[06:00:08] [main/INFO]: Initialize mod Library Ferret
-[06:00:08] [main/INFO]: Initialized mod Library Ferret
-[06:00:09] [main/INFO]: Initializing LuphieclutteredmodMod
-[06:00:09] [main/INFO]: Hello World
-[06:00:09] [main/INFO]: [STDOUT]: All 12 have been set properly
-[06:00:09] [main/INFO]: Registering mod blocks forlying_skeletons
-[06:00:09] [main/INFO]: Definitely not up to no good
-[06:00:09] [main/INFO]: Constructing common components for mutantmonsters:main
-[06:00:09] [main/INFO]: Loading common config for mutantmonsters
-[06:00:09] [main/INFO]: mystic's biomes ~ registering biomes
-[06:00:10] [main/INFO]: mystic's biomes ~ registering blocks
-[06:00:10] [main/ERROR]: No data fixer registered for butterfly_nest
-[06:00:10] [main/INFO]: mystic's biomes ~ registering block entities
-[06:00:10] [main/INFO]: mystic's biomes ~ registering animals & critters
-[06:00:10] [main/INFO]: mystic's biomes ~ registering items
-[06:00:10] [main/INFO]: mystic's biomes ~ registering features
-[06:00:10] [main/INFO]: mystic's biomes ~ registering configured features
-[06:00:10] [main/INFO]: mystic's biomes ~ registering placed features
-[06:00:10] [main/INFO]: mystic's biomes ~ registering poi types
-[06:00:10] [main/INFO]: mystic's biomes ~ registering sounds
-[06:00:10] [main/INFO]: mystic's biomes ~ registering creative tab
-[06:00:10] [main/INFO]: Loading Noisium.
-[06:00:10] [main/INFO]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
-[06:00:10] [main/INFO]: Registering C2S receiver with id otyacraftengine:item_instruction
-[06:00:10] [main/INFO]: chyzman: No sound or Ender Dragon leakage. Although Ender Dragon sound leakage is still a thing
-[06:00:10] [main/INFO]: Packet Fixer has been initialized successfully
-[06:00:10] [main/INFO]: [Plushables] Finished loading!
-[06:00:10] [main/INFO]: Constructing common components for puzzleslib:main
-[06:00:10] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[06:00:10] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 6 keys and 40 values
-[06:00:10] [main/INFO]: Reflections took 8 ms to scan 1 urls, producing 6 keys and 40 values
-[06:00:10] [main/INFO]: Registering Ribbit instruments...
-[06:00:10] [main/INFO]: Registering Ribbit umbrella types...
-[06:00:10] [main/INFO]: Registering Ribbit professions...
-[06:00:10] [main/INFO]: Registering Ribbit data serializers...
-[06:00:10] [main/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
-[06:00:10] [main/INFO]: Loaded 293 hat entries from simplehats.json
-[06:00:10] [main/INFO]: Generated 293 hat items from hat entries.
-[06:00:11] [main/INFO]: [STDOUT]: /workspaces/wilker/servidor_minecraft/config
-[06:00:11] [main/INFO]: Loading SnufflesConfig...
-[06:00:11] [main/INFO]: structureessentials mod initialized
-[06:00:11] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[06:00:11] [main/INFO]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region mysticsbiomes:overworld_provider to index 4 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region regions_unexplored:primary to index 5 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region regions_unexplored:secondary to index 6 for type OVERWORLD
-[06:00:11] [main/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
-[06:00:11] [main/INFO]: Constructing common components for tinyskeletons:main
-[06:00:11] [main/INFO]: Hello Fabric world!
-[06:00:11] [main/INFO]: Starting TT20...
-[06:00:11] [main/INFO]: Hello Fabric world!
-[06:00:11] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[06:00:11] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[06:00:11] [main/INFO]: Constructing common components for visualworkbench:main
-[06:00:11] [main/INFO]: Wabi-Sabi Structures initialized
-[06:00:11] [main/INFO]: Running WATERFrAMES v2.1.12a
-[06:00:11] [main/WARN]: Stub running successfully
-[06:00:11] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
-[06:00:11] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[06:00:11] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[06:00:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[06:00:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[06:00:11] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[06:00:12] [main/INFO]: Initialized block sets in 51ms
-[06:00:12] [main/INFO]: Loaded config moonlight-common.json
-[06:00:12] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
-[06:00:12] [main/INFO]: Initialized color sets in 122ms
-[06:00:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:00:12] [main/ERROR]: Failed to start the minecraft server
+[06:07:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/wilker/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[06:07:43] [main/INFO]: Compatibility level set to JAVA_17
+[06:07:43] [main/WARN]: Reference map 'armoroftheages.refmap.json' for armoroftheages.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map 'armoroftheages.refmap.json' for armoroftheages.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[06:07:43] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[06:07:43] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[06:07:43] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[06:07:43] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[06:07:43] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[06:07:43] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/INFO]: Preloading Debugify
+[06:07:43] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map 'graveyard-FABRIC-fabric-refmap.json' for graveyard-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:43] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 4 override(s) found
+[06:07:43] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:44] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 65 options available, 5 override(s) found
+[06:07:44] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[06:07:44] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[06:07:44] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[06:07:44] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[06:07:44] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[06:07:44] [main/INFO]: Applying Nashorn fix
+[06:07:44] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:44] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:44] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:44] [main/WARN]: Reference map 'structure_layout_optimizer.refmap.json' for structure_layout_optimizer.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:44] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[06:07:44] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:07:44] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[06:07:44] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[06:07:44] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[06:07:44] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[06:07:44] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[06:07:44] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[06:07:44] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
+[06:07:44] [main/WARN]: Error loading class: net/minecraft/class_929 (java.lang.ClassNotFoundException: net/minecraft/class_929)
+[06:07:44] [main/WARN]: @Mixin target net.minecraft.class_929 was not found earthtojava-common.mixins.json:CatEntityRendererMixin from mod earthtojavamobs
+[06:07:45] [main/INFO]: Loading Faster Random.
+[06:07:45] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[06:07:45] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[06:07:45] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton, vmp]) disables it and children
+[06:07:45] [main/WARN]: Error loading class: net/minecraft/class_337$1 (java.lang.ClassNotFoundException: net/minecraft/class_337$1)
+[06:07:45] [main/WARN]: @Mixin target net/minecraft/class_337$1 was not found minecells.mixins.json:client.hud.BossBarUpdaterMixin from mod minecells
+[06:07:45] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[06:07:45] [main/INFO]: Loaded config for: structureessentials.json
+[06:07:45] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[06:07:45] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[06:07:45] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[06:07:45] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[06:07:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06:07:46] [main/INFO]: ThreadTweak config initialized
+[06:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[06:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[06:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[06:07:51] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[06:07:51] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[06:07:51] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin from mod refurbished_furniture::handler$ehb000$refurbished_furniture$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06:07:51] [main/WARN]: Method overwrite conflict for getContainerCounter in porting_lib_accessors.mixins.json:common.accessor.ServerPlayerAccessor from mod porting_lib_accessors, previously written by com.helliongames.snifferplus.mixin.MixinServerPlayer. Skipping method.
+[06:07:51] [main/WARN]: Method overwrite conflict for getContainerCounter in moonlight.mixins.json:ServerPlayerAccessor from mod moonlight, previously written by com.helliongames.snifferplus.mixin.MixinServerPlayer. Skipping method.
+[06:07:51] [main/WARN]: Method overwrite conflict for getContainerCounter in species.mixins.json:ServerPlayerAccessor from mod species, previously written by com.helliongames.snifferplus.mixin.MixinServerPlayer. Skipping method.
+[06:07:53] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[06:07:53] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[06:07:54] [main/INFO]: Vanilla bootstrap took 7547 milliseconds
+[06:07:54] [main/INFO]: fabric loader environment detected
+[06:07:54] [main/INFO]: Loaded config for: cupboard.json
+[06:07:55] [main/INFO]: Reflections took 206 ms to scan 1 urls, producing 9 keys and 75 values
+[06:07:56] [main/INFO]: [Regions Unexplored] generating and loading config
+[06:07:56] [main/INFO]: Loaded config amendments-common.json
+[06:07:56] [main/INFO]: Deserializing AOTAConfig from './config/armoroftheages.json'
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[06:07:56] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[06:07:56] [main/INFO]: Initializing AtistructuresvMod
+[06:07:57] [main/INFO]: betterchunkloading mod initialized
+[06:07:57] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:07:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[06:07:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[06:07:57] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:07:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:07:57] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[06:07:57] [main/INFO]: Biolith is initializing...
+[06:07:57] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[06:07:57] [main/INFO]: Initializing network...
+[06:07:57] [main/INFO]: Initialized network!
+[06:07:57] [main/INFO]: Registering Oh The Biomes We've Gone items
+[06:07:57] [main/INFO]: Registering Oh The Biomes We've Gone Blocks
+[06:07:57] [main/INFO]: Registering Oh The Biomes We've Gone Wood
+[06:07:57] [main/INFO]: Bypassed Mojang DFU
+[06:07:57] [main/INFO]: Instantiating Mojang DFU
+[06:07:58] [main/ERROR]: No data fixer registered for biomeswevegone:sign
+[06:07:58] [main/ERROR]: No data fixer registered for biomeswevegone:hanging_sign
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Block Entities
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Entities
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Sounds
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Block Predicate
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone State Providers
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Custom Features
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Configured Features
+[06:07:58] [main/INFO]: Creating and Registering Overworld Vegetation Configured Features
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
+[06:07:58] [main/INFO]: Creating and Registering Vanilla Configured Features
+[06:07:58] [main/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Placed Features
+[06:07:58] [main/INFO]: Creating and Registering Overworld Tree Placed Features
+[06:07:58] [main/INFO]: Creating and Registering Overworld Vegetation Placed Features
+[06:07:58] [main/INFO]: Creating and Registering Vanilla Placed Features
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Template Pools
+[06:07:58] [main/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Poi Types
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Villager Professions
+[06:07:58] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[06:07:58] [main/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[06:07:58] [main/INFO]: Brutal bosses initialized
+[06:07:58] [main/INFO]: Registering Items for callofequestria_fabricated
+[06:07:58] [main/INFO]: Registering Sounds for callofequestria_fabricated
+[06:07:58] [main/INFO]: Registering Plushies for callofequestria_fabricated
+[06:07:58] [main/INFO]: Registering C2S receiver with id camping:open_backpack
+[06:07:58] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
+[06:07:58] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
+[06:07:58] [main/INFO]: Hello Fabric world!
+[06:07:58] [main/INFO]: [STDOUT]: All 6 have been set properly
+[06:07:58] [main/INFO]: Loaded config for: chunksending.json
+[06:07:58] [main/INFO]: chunksending mod initialized
+[06:07:58] [main/INFO]: Loading Collective version 8.1.
+[06:07:58] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[06:07:58] [main/INFO]: Successfully Debugify'd your game!
+[06:07:58] [main/INFO]: Constructing common components for diagonalblocks:main
+[06:07:58] [main/INFO]: Constructing common components for diagonalfences:main
+[06:07:59] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 80ms
+[06:07:59] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 86ms
+[06:07:59] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 68ms
+[06:07:59] [main/INFO]: Hello Fabric world!
+[06:07:59] [main/INFO]: [Earth2Java] Mod loaded! Enjoy :D
+[06:07:59] [main/INFO]: Constructing common components for easyanvils:main
+[06:07:59] [main/INFO]: Constructing common components for enderzoology:main
+[06:07:59] [main/INFO]: Loading common config for enderzoology
+[06:07:59] [main/INFO]: ExpandAbility here, who dis?
+[06:08:00] [pool-3-thread-1/INFO]: Reloading common config for enderzoology
+[06:08:00] [main/INFO]: Initializing Gimm1q - Mim1q's Fabric modding library!
+[06:08:00] [main/INFO]: Registered JSON trade offer adapter.
+[06:08:00] [main/INFO]: Constructing common components for hangglider:main
+[06:08:00] [main/INFO]: Initializing hybrid-aquatic
+[06:08:00] [main/ERROR]: No data fixer registered for hybrid-aquatic:anemone
+[06:08:00] [main/ERROR]: No data fixer registered for hybrid-aquatic:giant_clam
+[06:08:00] [main/ERROR]: No data fixer registered for hybrid-aquatic:message_in_a_bottle
+[06:08:00] [main/ERROR]: No data fixer registered for hybrid-aquatic:buoy
+[06:08:00] [main/ERROR]: No data fixer registered for hybrid-aquatic:tube_sponge
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_sync
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_add
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_edit
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_playlist_change_authority
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_add
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_edit
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_ring_ready_result
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_ring_update_result
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:music_or_playlist_delete
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:multiple_music_add
+[06:08:00] [main/INFO]: Registering C2S receiver with id iammusicplayer:hand_lid_cycle
+[06:08:00] [main/INFO]: Constructing common components for illagerinvasion:main
+[06:08:01] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[06:08:01] [main/INFO]: Constructing common components for leavesbegone:main
+[06:08:01] [main/INFO]: Initialize mod Library Ferret
+[06:08:01] [main/INFO]: Initialized mod Library Ferret
+[06:08:01] [main/INFO]: Initializing LuphieclutteredmodMod
+[06:08:01] [main/INFO]: Hello World
+[06:08:01] [main/INFO]: [STDOUT]: All 12 have been set properly
+[06:08:01] [main/INFO]: Registering mod blocks forlying_skeletons
+[06:08:02] [main/INFO]: Definitely not up to no good
+[06:08:02] [main/INFO]: Constructing common components for mutantmonsters:main
+[06:08:02] [main/INFO]: Loading common config for mutantmonsters
+[06:08:02] [main/INFO]: mystic's biomes ~ registering biomes
+[06:08:02] [main/INFO]: mystic's biomes ~ registering blocks
+[06:08:02] [main/ERROR]: No data fixer registered for butterfly_nest
+[06:08:02] [main/INFO]: mystic's biomes ~ registering block entities
+[06:08:02] [main/INFO]: mystic's biomes ~ registering animals & critters
+[06:08:02] [main/INFO]: mystic's biomes ~ registering items
+[06:08:02] [main/INFO]: mystic's biomes ~ registering features
+[06:08:02] [main/INFO]: mystic's biomes ~ registering configured features
+[06:08:02] [main/INFO]: mystic's biomes ~ registering placed features
+[06:08:02] [main/INFO]: mystic's biomes ~ registering poi types
+[06:08:02] [main/INFO]: mystic's biomes ~ registering sounds
+[06:08:02] [main/INFO]: mystic's biomes ~ registering creative tab
+[06:08:02] [main/INFO]: Loading Noisium.
+[06:08:02] [main/INFO]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
+[06:08:02] [main/INFO]: Registering C2S receiver with id otyacraftengine:item_instruction
+[06:08:02] [main/INFO]: chyz: There's a snake in my prison pocket
+[06:08:02] [main/INFO]: Packet Fixer has been initialized successfully
+[06:08:02] [main/INFO]: [Plushables] Finished loading!
+[06:08:02] [main/INFO]: Constructing common components for puzzleslib:main
+[06:08:02] [pool-3-thread-1/INFO]: Reloading common config for mutantmonsters
+[06:08:02] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[06:08:03] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 6 keys and 40 values
+[06:08:03] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 6 keys and 40 values
+[06:08:03] [main/INFO]: Registering Ribbit instruments...
+[06:08:03] [main/INFO]: Registering Ribbit umbrella types...
+[06:08:03] [main/INFO]: Registering Ribbit professions...
+[06:08:03] [main/INFO]: Registering Ribbit data serializers...
+[06:08:03] [main/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
+[06:08:03] [main/INFO]: Loaded 293 hat entries from simplehats.json
+[06:08:03] [main/INFO]: Generated 293 hat items from hat entries.
+[06:08:03] [main/INFO]: [STDOUT]: /workspaces/wilker/servidor_minecraft/config
+[06:08:03] [main/INFO]: Loading SnufflesConfig...
+[06:08:03] [main/INFO]: structureessentials mod initialized
+[06:08:03] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[06:08:03] [main/INFO]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region mysticsbiomes:overworld_provider to index 4 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region regions_unexplored:primary to index 5 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region regions_unexplored:secondary to index 6 for type OVERWORLD
+[06:08:03] [main/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[06:08:03] [main/INFO]: Constructing common components for tinyskeletons:main
+[06:08:03] [main/INFO]: Hello Fabric world!
+[06:08:03] [main/INFO]: Starting TT20...
+[06:08:03] [main/INFO]: Hello Fabric world!
+[06:08:03] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[06:08:03] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[06:08:03] [main/INFO]: Constructing common components for visualworkbench:main
+[06:08:03] [main/INFO]: Wabi-Sabi Structures initialized
+[06:08:04] [main/INFO]: Running WATERFrAMES v2.1.12a
+[06:08:04] [main/WARN]: Stub running successfully
+[06:08:04] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
+[06:08:04] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[06:08:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[06:08:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:08:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[06:08:04] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[06:08:04] [main/INFO]: Initialized block sets in 40ms
+[06:08:04] [main/INFO]: Loaded config moonlight-common.json
+[06:08:04] [main/INFO]: Initialized color sets in 52ms
+[06:08:04] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
+[06:08:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:08:04] [main/ERROR]: Failed to start the minecraft server
 net.minecraft.class_5125$class_5126: /workspaces/wilker/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
 	at net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
