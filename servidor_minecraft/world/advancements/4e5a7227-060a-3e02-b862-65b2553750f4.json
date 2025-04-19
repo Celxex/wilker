@@ -11249,9 +11249,21 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/misc/yellow_dye_from_yellow_lupine": {
+    "criteria": {
+      "has_yellow_lupine": "2025-04-19 05:01:41 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/redstone/willow_button": {
     "criteria": {
       "has_willow_planks": "2025-04-19 04:40:53 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/red_dye_from_red_lupine": {
+    "criteria": {
+      "has_red_lupine": "2025-04-19 04:58:41 +0000"
     },
     "done": true
   },
@@ -11273,6 +11285,12 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/misc/blue_dye_from_blue_lupine": {
+    "criteria": {
+      "has_blue_lupine": "2025-04-19 05:01:58 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/redstone/willow_pressure_plate": {
     "criteria": {
       "has_willow_planks": "2025-04-19 04:40:53 +0000"
@@ -11288,6 +11306,12 @@
   "regions_unexplored:recipes/building_blocks/willow_stairs": {
     "criteria": {
       "has_willow_planks": "2025-04-19 04:40:53 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/purple_dye_from_purple_lupine": {
+    "criteria": {
+      "has_purple_lupine": "2025-04-19 04:59:06 +0000"
     },
     "done": true
   },
