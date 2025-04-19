@@ -10811,6 +10811,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-04-19 00:41:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-04-19 00:30:59 +0000"
@@ -10832,6 +10838,12 @@
   "minecraft:recipes/combat/netherite_boots_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-04-19 00:30:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-04-19 00:41:22 +0000"
     },
     "done": true
   },
@@ -10859,6 +10871,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-04-19 00:41:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
       "has_netherite_upgrade_smithing_template": "2025-04-19 00:30:59 +0000"
@@ -10874,6 +10892,12 @@
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-04-19 00:30:59 +0000"
+    },
+    "done": true
+  },
+  "mostructures:villager_market": {
+    "criteria": {
+      "villager_market": "2025-04-19 00:52:18 +0000"
     },
     "done": true
   },
